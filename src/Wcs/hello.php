@@ -1,4 +1,16 @@
 <?php
-    class Hello{
-        public $talk = "Hello world";
+
+namespace App\Wcs;
+
+class Hello
+{
+    private $hello = "Hello World, composer !";
+
+    /*
+     * return hello world
+     */
+    public function talk(){
+        return $this->hello;
     }
+
+}
